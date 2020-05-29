@@ -1,10 +1,11 @@
 # node-alpine-docker-mdns
 
-Sample node_mdns project for Alpine Linux Docker containers.
+Sample mDNS node project for Alpine Linux Docker containers.
 
-See the blog post here: 
+See the blog post here: https://coderefinery.wordpress.com/2020/05/29/publishing-your-node-service-with-dns-sd-mdns-from-an-alpine-linux-docker-container/
 
-Build image with:
+## Building and Running
+To build:
 ```$bash
 $ docker buildx build -t myapp --platform linux/arm/v6 -o type=docker .
 ```
