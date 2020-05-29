@@ -1,0 +1,14 @@
+{
+  "name": "alpine-docker-mdns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Clarke",
+  "license": "ISC",
+  "dependencies": {
+    "mdns": "^2.5.1"
+  }
+}
